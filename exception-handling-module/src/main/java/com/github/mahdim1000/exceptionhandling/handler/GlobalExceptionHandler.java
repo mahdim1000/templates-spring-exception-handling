@@ -26,8 +26,6 @@ import java.util.stream.Collectors;
 
 /**
  * Global exception handler for the application.
- * Centralized exception handling following the Single Responsibility Principle.
- * 
  * This handler provides:
  * - Consistent error response structure
  * - Internationalized error messages
