@@ -5,24 +5,24 @@ import jakarta.validation.constraints.*;
 /**
  * DTO for user creation/update requests.
  * Demonstrates validation annotations that will trigger validation exceptions.
- * 
+ *
  * Uses class instead of record to properly support Bean Validation annotations.
  */
 public class UserRequest {
-    
+    @Size(min = 2, max = 50, message = "error.validation.between")
     @NotBlank(message = "error.validation.required")
     private String name;
-    
+
     @NotBlank(message = "error.validation.required")
-    @Email(message = "error.validation.email.invalid")
+    @Email(message = "error.validation.invalid")
     private String email;
-    
+
     @NotNull(message = "error.validation.required")
-    @Min(value = 18, message = "error.validation.age.invalid")
-    @Max(value = 100, message = "error.validation.age.invalid")
+    @Min(value = 18, message = "error.validation.min")
+    @Max(value = 100, message = "error.validation.max")
     private Integer age;
-    
-    @Pattern(regexp = "^\\+?[1-9]\\d{1,14}$", message = "error.validation.phone.invalid")
+
+    @Pattern(regexp = "^\\+?[1-9]\\d{1,14}$", message = "error.validation.field.invalid")
     private String phone;
 
     // Constructors

@@ -1,0 +1,11 @@
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/util/TraceIdGenerator.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/exception/BusinessException.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/exception/TechnicalException.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/dto/ErrorResponse.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/util/MessageResolver.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/handler/GlobalExceptionHandler.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/ExceptionHandlingAutoConfiguration.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/dto/FieldError.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/exception/ResourceNotFoundException.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/exception/BaseException.java
+/home/mahdi/Projects/templates/exception_handing/exception-handling/src/main/java/com/github/mahdim1000/exceptionhandling/exception/ValidationException.java

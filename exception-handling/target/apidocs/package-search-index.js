@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.github.mahdim1000.exceptionhandling"},{"l":"com.github.mahdim1000.exceptionhandling.dto"},{"l":"com.github.mahdim1000.exceptionhandling.exception"},{"l":"com.github.mahdim1000.exceptionhandling.handler"},{"l":"com.github.mahdim1000.exceptionhandling.util"}];updateSearchResults();

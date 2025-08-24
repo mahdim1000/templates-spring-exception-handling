@@ -1,8 +1,8 @@
 package com.github.mahdim1000.exception_handing.controller;
 
-import com.github.mahdim1000.exception_handing.dto.UserRequest;
 import com.github.mahdim1000.exception_handing.dto.UserResponse;
-import com.github.mahdim1000.exceptionhandling.exception.*;
+import com.github.mahdim1000.exceptionhandling.exception.TechnicalException;
+import com.github.mahdim1000.exceptionhandling.exception.ValidationException;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -67,7 +67,7 @@ public class DemoController {
      * Demonstrate Bean Validation with field errors.
      */
     @PostMapping("/validate")
-    public ResponseEntity<UserResponse> validateUser(@Valid @RequestBody UserRequest userRequest) {
+    public ResponseEntity<UserResponse> validateUser(@Valid @RequestBody com.github.mahdim1000.exception_handing.dto.UserRequest userRequest) {
         UserResponse response = new UserResponse(
             1L, 
             userRequest.getName(), 
